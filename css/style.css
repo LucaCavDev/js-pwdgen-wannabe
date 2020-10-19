@@ -2,10 +2,68 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Press Start 2P', cursive;
+  color: #42B955;
 }
 
 #container {
-  background-color: blue;
-  height: 100vh;
+  background-image: url("../img/screen.png");
+  background-size: cover;
   width: 100vw;
+  height: 100vh;
+  border: solid 50px #42B955;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexcol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+#title {
+  font-size: 200%;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#subtitle {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+#lock img{
+  width: 80px;
+  height: auto;
+}
+
+#insideboy {
+  justify-content: space-around;
+  align-items: center;
+}
+
+#boy img{
+  width: 200px;
+  height: 150px;
+}
+
+#password {
+  border: 2px dotted #42B955;
+  width: auto;
+  padding: 10px;
+  margin-bottom: 3%;
 }
